@@ -4,6 +4,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+/**
+ * @Controller：修饰class，用来创建处理http请求的对象
+ */
 @Controller
 public class HTMLController {
 
