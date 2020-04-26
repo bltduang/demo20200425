@@ -1,19 +1,21 @@
 package com.example.domain;
 
+/*
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+*/
 
-@Entity
+//@Entity
 public class User {
-
-    @Id
-    @GeneratedValue
+    //hibernate.dialect
+//    @Id
+//    @GeneratedValue
     private Long id;
-    @Column(nullable = false)
+//    @Column(nullable = false)
     private String name;
-    @Column(nullable = false)
+//    @Column(nullable = false)
     private Integer age;
 
     public User() {

@@ -1,5 +1,6 @@
 package com.example.service;
 
+//JDBCTemplate
 public interface UserService {
 
     /**

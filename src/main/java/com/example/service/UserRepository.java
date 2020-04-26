@@ -1,11 +1,16 @@
 package com.example.service;
+public interface UserRepository{
 
+}
+/*
 import com.example.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
+//Spring-data-jpa
 public interface UserRepository extends JpaRepository<User,Long> {
+
 
     User findByName(String name);
 
@@ -15,3 +20,4 @@ public interface UserRepository extends JpaRepository<User,Long> {
     User findUser(@Param("name") String name);
 
 }
+*/
